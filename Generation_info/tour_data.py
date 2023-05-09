@@ -51,8 +51,6 @@ def generate_random_data(num_samples):
             'Возраст': age,
             'Язык гида': language
         })
-
-<<<<<<< HEAD
     return data
 
 # Генерируем случайные данные (например, 10000 записей)
@@ -67,9 +65,8 @@ with open('tour_data.csv', 'w', newline='', encoding='utf-8') as csvfile:
     writer.writeheader()
     for item in random_data:
         writer.writerow(item)
-=======
 # Сохранение данных в файл CSV
 tour_data.to_csv('tour_data.csv', index=False)
 
 
->>>>>>> 35d9f9728ccf14253b8b6755928f2a585cb457a2
+

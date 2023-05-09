@@ -41,15 +41,8 @@ user_input = [
 # Получение рекомендаций
 distances, indices = knn.kneighbors([user_input])
 
-<<<<<<< HEAD
-# Вывод рекомендаций
 print("\nРекомендованные туры:")
 for index in indices[0]:
     recommended_tour = tour_data.iloc[index]
     if recommended_tour['Откуда'] == from_location and recommended_tour['Куда'] == to_location:
         print(recommended_tour)
-=======
-
-
-
->>>>>>> 35d9f9728ccf14253b8b6755928f2a585cb457a2
